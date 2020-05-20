@@ -17,17 +17,19 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
-  product = 
+  product = num1 * num2
   puts product
   product
 end
 
 def modulo(num1, num2)
-  remainder =
+  remainder = num1 % num2
   puts remainder
   remainder
 end
 
 def square_root(num)
-
+  root = Math.sqrt(num)
+  puts root
+  root
 end
